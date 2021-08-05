@@ -19,3 +19,9 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+
+.cart-button {
+  display: inline-block;
+  background-color: #6f00e7;
+}
