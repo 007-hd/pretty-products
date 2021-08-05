@@ -27,12 +27,10 @@ body {
   box-sizing: inherit;
 }
 
-/* good */
 ul {
   margin: 0;
   padding: 1rem;
 
-  /* main grid */
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -52,7 +50,6 @@ ul > li {
   align-items: center;
 }
 
-
 h2 {
   font-family: Oswald, sans-serif;
   margin: 0;
@@ -62,7 +59,6 @@ h2 {
   font-weight: 900;
 }
 
-/* good */
 p {
   margin: 0;
   font-family: Karma, serif;
@@ -74,14 +70,12 @@ p {
   padding-bottom: .5em;
 }
 
-/* good */
 .products {
   max-width: 100%;
   padding-top: 1rem;
   padding-left: 4.05rem;
   padding-right: 4.05rem;
   padding-bottom: 1rem;
-
 }
 
 .cart-button {
@@ -99,7 +93,7 @@ p {
 }
 
 .share {
- align-content: flex-end;
+  align-content: flex-end;
 }
 
 div {
